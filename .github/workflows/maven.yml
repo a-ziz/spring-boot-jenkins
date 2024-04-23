@@ -33,7 +33,7 @@ jobs:
     - name: Build and push image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: a-ziz/cogent-github-action
+        image: aaziz0/cogent-github-action
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
